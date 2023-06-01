@@ -47,6 +47,8 @@ body.innerHTML = `
                       <li><a href='#ataud'>Ataudes</a></li>
                       <li><a href='#flores'>Flores</a></li>
                       <li><a href='http://'>urnas</a></li>
+                      <li><button onclick="cambiar()">CAMBIA EL TEMA</button></li>
+        </section>
                     </ul>
                 </nav>
             </div>
@@ -97,9 +99,6 @@ body.innerHTML = `
                     </div>
                 </form>
             </div>
-        </section>
-        <section id="tema">
-          <button onclick="cambiar()">CAMBIA EL TEMA</button>
         </section>
     </main>     
 `;
