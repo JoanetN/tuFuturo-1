@@ -263,9 +263,13 @@ login1.addEventListener('submit', function(event) {
 function cambiar(){
     if (body.style.color === 'black') {
       body.style.color = 'white';
+      mediano.style.color = 'white';
+      mediano.style.baskgroundColor = 'black';
       body.style.backgroundColor = 'black';
     } else {
       body.style.color = 'black';
+      mediano.style.color = 'black';
+      mediano.style.backgroundColor = 'white';
       body.style.backgroundColor = 'white';
       }
 }
