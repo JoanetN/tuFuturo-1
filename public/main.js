@@ -12,8 +12,8 @@ body.innerHTML = `
               <li><a class='dropdown-arrow' href='#Servicios'>Servicios</a>
                 <ul class='sub-menus'>
                   <li><a href='#ataudes'>Ataudes</a></li>
-                  <li><a href='#21'>Flores</a></li> 
-                  <li><a href='#41'>Urna</a></li>
+                  <li><a href='#19'>Flores</a></li> 
+                  <li><a href='#39'>Urna</a></li>
                 </ul>
               </li>
               <li><a href='http://'>Planes</a></li>
