@@ -17,7 +17,7 @@ body.innerHTML = `
                 </ul>
               </li>
               <li><a href='http://'>Planes</a></li>
-              <li><a href='http://'>Contacto</a></li>
+              <li><a href='#formulario'>Contacto</a></li>
               <li><button onclick="cambiar()">CAMBIA EL TEMA</button></li>
             </ul>
           </nav>
