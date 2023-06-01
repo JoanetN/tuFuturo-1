@@ -98,6 +98,9 @@ body.innerHTML = `
                 </form>
             </div>
         </section>
+        <section id="tema">
+          <button onclick="cambiar()">CAMBIA EL TEMA</button>
+        </section>
     </main>     
 `;
 
@@ -258,3 +261,12 @@ login1.addEventListener('submit', function(event) {
       console.log('Error en la solicitud:', error);
     });
 });
+function cambiar(){
+    if (body.style.color === 'black') {
+      body.style.color = 'white';
+      body.style.backgroundColor = 'black';
+    } else {
+      body.style.color = 'black';
+      body.style.backgroundColor = 'white';
+      }
+}
