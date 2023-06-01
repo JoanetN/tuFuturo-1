@@ -8,7 +8,7 @@ body.innerHTML = `
         <nav class='menu'>
             <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
             <ul>
-              <li><a href='#logoFoto'>Inicio</a></li>
+              <li><a href='#responsive-menu'>Inicio</a></li>
               <li><a class='dropdown-arrow' href='#Servicios'>Servicios</a>
                 <ul class='sub-menus'>
                   <li><a href='#ataudes'>Ataudes</a></li>
