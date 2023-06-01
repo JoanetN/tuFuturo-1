@@ -18,6 +18,7 @@ body.innerHTML = `
               </li>
               <li><a href='http://'>Planes</a></li>
               <li><a href='http://'>Contacto</a></li>
+              <li><button onclick="cambiar()">CAMBIA EL TEMA</button></li>
             </ul>
           </nav>
         </nav>
@@ -47,7 +48,6 @@ body.innerHTML = `
                       <li><a href='#ataud'>Ataudes</a></li>
                       <li><a href='#flores'>Flores</a></li>
                       <li><a href='http://'>urnas</a></li>
-                      <li><button onclick="cambiar()">CAMBIA EL TEMA</button></li>
         </section>
                     </ul>
                 </nav>
